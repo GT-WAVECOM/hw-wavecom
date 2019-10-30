@@ -8773,6 +8773,17 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <label x="157.48" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="IO26"/>
+<wire x1="213.36" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
+<label x="208.28" y="99.06" size="1.778" layer="95"/>
+<label x="208.28" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="4"/>
+<wire x1="373.38" y1="50.8" x2="337.82" y2="50.8" width="0.1524" layer="91"/>
+<label x="337.82" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="WS" class="0">
 <segment>
@@ -8953,19 +8964,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-</segment>
-</net>
-<net name="DATA" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="4"/>
-<wire x1="373.38" y1="50.8" x2="337.82" y2="50.8" width="0.1524" layer="91"/>
-<label x="337.82" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="IO26"/>
-<wire x1="213.36" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
-<label x="208.28" y="99.06" size="1.778" layer="95"/>
-<label x="208.28" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$12" class="0">

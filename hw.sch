@@ -8770,6 +8770,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<label x="157.48" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="IO26"/>
+<wire x1="213.36" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
+<label x="208.28" y="99.06" size="1.778" layer="95"/>
+<label x="208.28" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="4"/>
+<wire x1="373.38" y1="50.8" x2="337.82" y2="50.8" width="0.1524" layer="91"/>
+<label x="337.82" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="WS" class="0">
 <segment>
@@ -8908,6 +8922,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-35.56" y1="27.94" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-25.4" y="27.94"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="IO21"/>
+<wire x1="248.92" y1="109.22" x2="256.54" y2="109.22" width="0.1524" layer="91"/>
+<label x="256.54" y="109.22" size="1.778" layer="95"/>
+<label x="256.54" y="109.22" size="1.778" layer="95"/>
+<label x="256.54" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -8917,6 +8938,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-20.32" y="33.02" size="1.778" layer="95"/>
 <wire x1="-20.32" y1="33.02" x2="-10.16" y2="33.02" width="0.1524" layer="91"/>
 <junction x="-10.16" y="33.02"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="IO19"/>
+<wire x1="248.92" y1="106.68" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
+<label x="256.54" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -8950,22 +8976,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-</segment>
-</net>
-<net name="DATA" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="4"/>
-<wire x1="373.38" y1="50.8" x2="337.82" y2="50.8" width="0.1524" layer="91"/>
-<label x="337.82" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="IO26"/>
-<wire x1="213.36" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
-<label x="208.28" y="99.06" size="1.778" layer="95"/>
-<label x="208.28" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="157.48" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$12" class="0">
