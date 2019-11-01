@@ -2242,7 +2242,6 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="5"/>
 <contactref element="IC1" pad="1"/>
 <wire x1="30.35" y1="31.38" x2="29.21" y2="32.52" width="0.3048" layer="16"/>
-<wire x1="49.54" y1="29.21" x2="49.53" y2="29.22" width="0.3048" layer="16"/>
 <wire x1="53.34" y1="5.08" x2="50.8" y2="2.54" width="0.3048" layer="16"/>
 <wire x1="53.34" y1="5.08" x2="53.34" y2="28.38" width="0.3048" layer="16"/>
 <contactref element="U$12" pad="5"/>
@@ -2260,7 +2259,6 @@ design rules under a new name.</description>
 <wire x1="26.67" y1="23.31105" x2="26.67" y2="34.29" width="0.3048" layer="16"/>
 <wire x1="26.67" y1="34.29" x2="27.94" y2="35.56" width="0.3048" layer="16"/>
 <wire x1="27.94" y1="35.56" x2="29.86145" y2="35.56" width="0.3048" layer="16"/>
-<wire x1="49.96" y1="31.76" x2="49.54" y2="29.21" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="DIN">
 <contactref element="U1" pad="1"/>
