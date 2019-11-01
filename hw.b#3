@@ -2034,11 +2034,21 @@ design rules under a new name.</description>
 <wire x1="36.83" y1="16.51" x2="34.29" y2="19.05" width="0.254" layer="16"/>
 <wire x1="31.75" y1="16.51" x2="32.258" y2="16.002" width="0.254" layer="16"/>
 <wire x1="32.258" y1="16.002" x2="32.258" y2="13.97" width="0.254" layer="16"/>
-<contactref element="U$16" pad="SW2"/>
-<contactref element="U$20" pad="SW2"/>
-<wire x1="34.29" y1="74.93" x2="58.42" y2="76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="34.29" y1="55.88" x2="34.29" y2="74.93" width="0" layer="19" extent="1-1"/>
-<wire x1="49.96" y1="39.38" x2="34.29" y2="55.88" width="0" layer="19" extent="1-1"/>
+<contactref element="U$20" pad="SW1"/>
+<contactref element="U$16" pad="SW1"/>
+<wire x1="27.94" y1="72.39" x2="58.42" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="53.34" x2="27.94" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="33.87" y1="33.02" x2="27.94" y2="53.34" width="0" layer="19" extent="16-16"/>
+<wire x1="32.46" y1="30.48" x2="33.87" y2="33.02" width="0" layer="19" extent="16-16"/>
+<wire x1="33.02" y1="25.72" x2="32.46" y2="30.48" width="0" layer="19" extent="16-16"/>
+<wire x1="30.48" y1="25.72" x2="33.02" y2="25.72" width="0" layer="19" extent="16-16"/>
+<wire x1="36.83" y1="27.94" x2="33.02" y2="25.72" width="0" layer="19" extent="16-16"/>
+<wire x1="32" y1="18.01" x2="33.02" y2="25.72" width="0" layer="19" extent="16-16"/>
+<wire x1="32.7" y1="10.16" x2="32.258" y2="13.97" width="0" layer="19" extent="16-16"/>
+<wire x1="32.7" y1="7.62" x2="32.7" y2="10.16" width="0" layer="19" extent="16-16"/>
+<wire x1="26.35" y1="17.78" x2="30.25" y2="16.76" width="0" layer="19" extent="16-16"/>
+<wire x1="26.35" y1="15.24" x2="26.35" y2="17.78" width="0" layer="19" extent="16-16"/>
+<wire x1="49.96" y1="39.38" x2="33.87" y2="33.02" width="0" layer="19" extent="16-16"/>
 <wire x1="55.88" y1="33.97" x2="49.96" y2="39.38" width="0" layer="19" extent="16-16"/>
 <wire x1="60.9299" y1="33.02" x2="55.88" y2="33.97" width="0" layer="19" extent="16-16"/>
 <wire x1="63.5" y1="28.79" x2="60.9299" y2="33.02" width="0" layer="19" extent="16-16"/>
@@ -2049,16 +2059,6 @@ design rules under a new name.</description>
 <wire x1="62.23" y1="21.5599" x2="63.5" y2="28.79" width="0" layer="19" extent="16-16"/>
 <wire x1="63.18" y1="19.05" x2="62.23" y2="21.5599" width="0" layer="19" extent="16-16"/>
 <wire x1="61.23" y1="13.86" x2="63.18" y2="19.05" width="0" layer="19" extent="16-16"/>
-<wire x1="33.87" y1="33.02" x2="49.96" y2="39.38" width="0" layer="19" extent="16-16"/>
-<wire x1="32.46" y1="30.48" x2="33.87" y2="33.02" width="0" layer="19" extent="16-16"/>
-<wire x1="33.02" y1="25.72" x2="32.46" y2="30.48" width="0" layer="19" extent="16-16"/>
-<wire x1="30.48" y1="25.72" x2="33.02" y2="25.72" width="0" layer="19" extent="16-16"/>
-<wire x1="36.83" y1="27.94" x2="33.02" y2="25.72" width="0" layer="19" extent="16-16"/>
-<wire x1="32" y1="18.01" x2="33.02" y2="25.72" width="0" layer="19" extent="16-16"/>
-<wire x1="32.7" y1="10.16" x2="32.258" y2="13.97" width="0" layer="19" extent="16-16"/>
-<wire x1="32.7" y1="7.62" x2="32.7" y2="10.16" width="0" layer="19" extent="16-16"/>
-<wire x1="26.35" y1="17.78" x2="30.25" y2="16.76" width="0" layer="19" extent="16-16"/>
-<wire x1="26.35" y1="15.24" x2="26.35" y2="17.78" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SD_MODE">
 <contactref element="U1" pad="4"/>
@@ -2340,13 +2340,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="BTN1">
 <contactref element="U$12" pad="27"/>
-<contactref element="U$20" pad="SW1"/>
-<wire x1="27.94" y1="53.34" x2="74.73" y2="34.3" width="0" layer="19" extent="1-1"/>
+<contactref element="U$20" pad="SW2"/>
+<wire x1="34.29" y1="55.88" x2="74.73" y2="34.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BTN2">
 <contactref element="U$12" pad="28"/>
-<contactref element="U$16" pad="SW1"/>
-<wire x1="74.73" y1="36.84" x2="27.94" y2="72.39" width="0" layer="19" extent="1-1"/>
+<contactref element="U$16" pad="SW2"/>
+<wire x1="34.29" y1="74.93" x2="74.73" y2="36.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="U$1" pad="4"/>

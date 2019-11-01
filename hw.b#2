@@ -2341,12 +2341,17 @@ design rules under a new name.</description>
 <signal name="BTN1">
 <contactref element="U$12" pad="27"/>
 <contactref element="U$20" pad="SW2"/>
-<wire x1="34.29" y1="55.88" x2="74.73" y2="34.3" width="0" layer="19" extent="1-1"/>
+<wire x1="67.73625" y1="37.8848" x2="67.5252" y2="37.8848" width="0.3048" layer="16"/>
+<wire x1="67.5252" y1="37.8848" x2="49.53" y2="55.88" width="0.3048" layer="16"/>
+<wire x1="74.73" y1="34.3" x2="71.32105" y2="34.3" width="0.3048" layer="16"/>
+<wire x1="71.32105" y1="34.3" x2="67.73625" y2="37.8848" width="0.3048" layer="16"/>
+<wire x1="49.53" y1="55.88" x2="34.29" y2="55.88" width="0.3048" layer="16"/>
 </signal>
 <signal name="BTN2">
 <contactref element="U$12" pad="28"/>
 <contactref element="U$16" pad="SW2"/>
-<wire x1="34.29" y1="74.93" x2="74.73" y2="36.84" width="0" layer="19" extent="1-1"/>
+<wire x1="74.73" y1="36.84" x2="36.64" y2="74.93" width="0.3048" layer="16"/>
+<wire x1="36.64" y1="74.93" x2="34.29" y2="74.93" width="0.3048" layer="16"/>
 </signal>
 <signal name="VDD">
 <contactref element="U$1" pad="4"/>
