@@ -2186,13 +2186,15 @@ design rules under a new name.</description>
 <contactref element="X2" pad="2"/>
 <contactref element="C10" pad="1"/>
 <contactref element="Q3" pad="3"/>
-<wire x1="58.42" y1="20.59" x2="59.96" y2="19.05" width="0.3048" layer="16"/>
-<wire x1="59.96" y1="19.05" x2="60.96" y2="19.05" width="0.3048" layer="16"/>
-<wire x1="64.77" y1="17.78" x2="62.55" y2="17.78" width="0.3048" layer="16"/>
+<wire x1="59.96" y1="19.05" x2="58.42" y2="20.59" width="0.3048" layer="16"/>
 <wire x1="62.55" y1="17.78" x2="62.55" y2="20.2899" width="0.3048" layer="16"/>
 <wire x1="64.77" y1="12.32" x2="64.5" y2="12.59" width="0.3048" layer="16"/>
-<wire x1="64.5" y1="12.59" x2="64.5" y2="15.51" width="0.3048" layer="16"/>
-<wire x1="64.5" y1="15.51" x2="60.96" y2="19.05" width="0.3048" layer="16"/>
+<wire x1="64.5" y1="12.59" x2="64.5" y2="15.24" width="0.3048" layer="16"/>
+<wire x1="64.5" y1="15.24" x2="64.5" y2="15.51" width="0.3048" layer="16"/>
+<wire x1="64.5" y1="15.24" x2="62.55" y2="17.19" width="0.3048" layer="16"/>
+<wire x1="62.55" y1="17.19" x2="62.55" y2="17.78" width="0.3048" layer="16"/>
+<wire x1="62.55" y1="17.78" x2="61.28" y2="19.05" width="0.3048" layer="16"/>
+<wire x1="61.28" y1="19.05" x2="59.96" y2="19.05" width="0.3048" layer="16"/>
 </signal>
 <signal name="VBUS">
 <contactref element="U3" pad="4"/>
